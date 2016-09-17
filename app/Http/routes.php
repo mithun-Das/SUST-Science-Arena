@@ -79,4 +79,24 @@ Route::group(array('middleware' => 'auth'), function()
 	Route::delete('project/{id}',['as' => 'project.delete', 'uses' => 'ProjectController@destroy']);
 
 
+
+
+
+/************************ EDITED BY MITHUN ************************/
+   
+   
+   // Event CRUD
+   Route::get('event',['as' => 'event.index', 'uses' => 'EventController@index']);
+   Route::get('event/create',['as' => 'event.create', 'uses' => 'EventController@create']);
+   Route::post('event',['as' => 'event.store', 'uses' => 'EventController@store']);
+   Route::get('event/{id}/show',['as' => 'event.show', 'uses' => 'EventController@show']);
+   Route::get('event/{id}/edit',['as' => 'event.edit', 'uses' => 'EventController@edit']);
+   Route::put('project/{id}',['as' => 'project.update', 'uses' => 'ProjectController@update']);
+   Route::delete('event/{id}',['as' => 'event.delete', 'uses' => 'eventController@destroy']);
+
+
+
+
+
+
 });

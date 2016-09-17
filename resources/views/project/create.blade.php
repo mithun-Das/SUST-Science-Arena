@@ -36,6 +36,16 @@
                                     </div>
                                 </div>
 
+            
+
+
+                     
+                            
+
+
+
+
+
                                 <div class="form-group">
                                     {!! Form::label('git_link', "Git Link*", array('class' => 'control-label col-lg-2')) !!}
                                     <div class="col-lg-6">

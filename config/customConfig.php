@@ -2,7 +2,7 @@
 
 return [
     'names' =>[
-        'siteName' => 'Dependency Manager'
+        'siteName' => 'SUST Science Arena'
     ],
     'roles' =>[
         'admin' => 'Admin',

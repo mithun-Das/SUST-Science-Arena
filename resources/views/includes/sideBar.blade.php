@@ -20,6 +20,14 @@
                        
                     </li>
 
+
+                     <li class="{!! Menu::isActiveRoute('event.index') !!}"><a href="{{ route('event.index') }}"><i class="ion-grid"></i> <span class="nav-label">Event</span></a>
+                       
+                    </li>
+
+
+
+
                     <li class="{!! Menu::isActiveRoute('category.index') !!}"><a href="{{ route('category.index') }}"><i class="ion-grid"></i> <span class="nav-label">Category</span></a>
                        
                     </li>
